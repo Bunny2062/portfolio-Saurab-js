@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header id="hero">
+
+    <!-- 100% Working Video Background -->
+    <video autoplay loop muted playsinline id="video-background">
+        <source src="video/animation_of_computer_code_processing_on_black_background (1080p).mp4" type="video/mp4">
+    </video>
+
+    <nav class="navbar">
+        <span class="logo">My Portfolio</span>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="menu-toggle" id="menu-button">☰</button>
+    </nav>
+
+    <div class="hero-content">
+        <h1>Saurab Uprety</h1>
+        <p>Frontend Developer & UI/UX Enthusiast</p>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>My Name is Saurab Uprety, Currently I am Pursuing My Bachloers Degree in Herald College Kathmandu, Rather than studying i love playing cricket, doing coding. I have Done Some Basics Projects as Well.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2><br>
+    <div id="projects-grid">
+        <div class="project-card"><h3>Project One</h3><br><p>This Was The First Project I ever Did in a Group and I got to Learn Many Things from this project.</p><br>
+            <img src="image/fyp.jpeg" width="250px"></div>
+        <div class="project-card"><h3>Project Two</h3><br><p>This Was The Project That Helped me to get good exposure of Dynamic Programming.</p>
+            <br>
+            <img src="image/python.jpeg" width="250px"></div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+        <input id="name" type="text" placeholder="Your Name">
+        <input id="email" type="email" placeholder="Email Address">
+        <textarea id="message" placeholder="Write a message..." rows="5"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <div id="form-message"></div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
